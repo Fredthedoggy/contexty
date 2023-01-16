@@ -1,0 +1,22 @@
+name: Build Contexty
+
+on:
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: latest
+        cache: 'yarn'
+    - run: yarn
+    - run: yarn build
