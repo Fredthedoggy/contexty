@@ -30,7 +30,7 @@
     "is-animated": "^2.0.2",
     "node-fetch": "^3.2.10",
     "pupeteer": "^0.0.1",
-    "puppeteer": "^19.2.2",
+    "puppeteer": "^19.5.2",
     "puppeteer-core": "^19.5.2",
     "puppeteer-lottie": "^1.1.2",
     "tempy": "^3.0.0",
