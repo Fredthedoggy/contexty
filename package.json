@@ -1,0 +1,42 @@
+{
+  "name": "contexty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.2",
+    "@types/puppeteer-lottie": "^1.1.1",
+    "@types/upng-js": "^2.1.2",
+    "tsx": "^3.9.0"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node cli/build.cjs",
+    "start": "cd build && node index.js",
+    "preproduction": "yarn build",
+    "production": "yarn start",
+    "dev": "node cli/clean.cjs && cd src && npx tsx index.ts"
+  },
+  "dependencies": {
+    "@rgba-image/png": "^0.1.1",
+    "@zerotwobot/del.js": "^1.2.0",
+    "axios": "^1.0.0",
+    "canvas": "^2.10.1",
+    "discord.js": "^14.6.0",
+    "execa": "^6.1.0",
+    "express": "^4.18.1",
+    "gifski": "^1.7.1",
+    "is-animated": "^2.0.2",
+    "node-fetch": "^3.2.10",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^19.2.2",
+    "puppeteer-core": "^19.2.0",
+    "puppeteer-lottie": "^1.1.2",
+    "tempy": "^3.0.0",
+    "topgg-autoposter": "^2.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "upng-js": "^2.1.0"
+  }
+}

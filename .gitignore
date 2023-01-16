@@ -1,0 +1,8 @@
+build
+node_modules
+config.json
+.idea
+images/*.png
+images/*.gif
+*-error.log
+database*.json
