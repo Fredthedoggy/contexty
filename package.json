@@ -22,7 +22,7 @@
     "@rgba-image/png": "^0.1.1",
     "@zerotwobot/del.js": "^1.2.0",
     "axios": "^1.0.0",
-    "canvas": "^2.10.1",
+    "canvas": "^2.11.0",
     "discord.js": "^14.6.0",
     "execa": "^6.1.0",
     "express": "^4.18.1",
